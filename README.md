@@ -125,12 +125,6 @@ The backend ensures correctness validation, and the frontend handles timing logi
 
 ---
 
-## 🏗️ Deployment Links
-
-- **Frontend:** [https://quizly-app.vercel.app](https://quiz-app-coral-ten.vercel.app/)
-- **Backend API:** [https://quizly-backend.onrender.com](https://quiz-app-ko4c.onrender.com/)
-
----
 
 ## ✨ Author
 
