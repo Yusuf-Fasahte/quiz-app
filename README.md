@@ -38,7 +38,7 @@ Created as part of the **Verto ASE Challenge 2025**.
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/quizly-app.git
+git clone git@github.com:Yusuf-Fasahte/quiz-app.git
 cd quizly-app
 ```
 
@@ -75,6 +75,12 @@ VITE_API_URL=http://localhost:4000
 
 ### 4️⃣ Run Locally
 
+Seed sample Quizes: 
+```bash
+cd backend
+node migrate.js
+```
+
 Start backend:
 
 ```bash
@@ -109,18 +115,6 @@ The backend ensures correctness validation, and the frontend handles timing logi
 
 ---
 
-## 🎥 Demo Video
-
-Watch my short Loom video explaining the project:  
-👉 [https://www.loom.com/share/YOUR_VIDEO_LINK](https://www.loom.com/share/YOUR_VIDEO_LINK)
-
-In the video, I cover:
-
-- My thought process while designing
-- Challenges faced and how I solved them
-- Improvements I’d add in the next version
-
----
 
 ## 💡 Design Choices
 
@@ -133,17 +127,16 @@ In the video, I cover:
 
 ## 🏗️ Deployment Links
 
-- **Frontend:** https://quizly-app.vercel.app
-- **Backend API:** https://quizly-backend.onrender.com
-- **Repository:** https://github.com/YOUR_USERNAME/quizly-app
+- **Frontend:** [https://quizly-app.vercel.app](https://quiz-app-coral-ten.vercel.app/)
+- **Backend API:** [https://quizly-backend.onrender.com](https://quiz-app-ko4c.onrender.com/)
 
 ---
 
 ## ✨ Author
 
-**Yusuf [Your Full Name]**  
-🌐 [LinkedIn Profile](https://www.linkedin.com/in/YOUR-LINKEDIN/)  
-📧 your.email@example.com
+**Yusuf Fasahte**  
+🌐 [LinkedIn Profile](https://www.linkedin.com/in/yusuf-fasahte-dev/)
+📧 yusuffasahte@gmail.com
 
 ---
 
@@ -155,7 +148,6 @@ I focused on:
 - Writing clean, readable code
 - Building a working, deployable full-stack product
 - Creating an engaging yet professional interface
-- Demonstrating end-to-end ownership
 
 ---
 
