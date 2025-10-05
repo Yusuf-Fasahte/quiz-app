@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS options CASCADE;
+DROP TABLE IF EXISTS questions CASCADE;
+DROP TABLE IF EXISTS quizzes CASCADE;
+
+CREATE TABLE quizzes (
+  id VARCHAR PRIMARY KEY,
+  title TEXT NOT NULL,
+  time_limit INT NOT NULL DEFAULT 60
+);
+
+CREATE TABLE questions (
+  id VARCHAR PRIMARY KEY,
+  quiz_id VARCHAR REFERENCES quizzes(id) ON DELETE CASCADE,
+  text TEXT NOT NULL,
+  correct_option_id VARCHAR
+);
+
+CREATE TABLE options (
+  id VARCHAR PRIMARY KEY,
+  question_id VARCHAR REFERENCES questions(id) ON DELETE CASCADE,
+  text TEXT NOT NULL
+);
